@@ -1,0 +1,21 @@
+{
+    "name": "php-decimal/stubs",
+    "description": "IDE and static analysis helper for the decimal extension",
+    "keywords": ["decimal", "precision", "number", "math"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudi Theunissen",
+            "email": "rtheunissen@php.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Decimal\\": ""
+        }
+    }
+}
