@@ -286,6 +286,13 @@ final class Decimal implements \JsonSerializable
     public function shift(int $places): Decimal {}
 
     /**
+     * Trims trailing zeroes.
+     *
+     * @return Decimal A copy of this decimal without trailing zeroes.
+     */
+    public function trim(): Decimal {}
+
+    /**
      * Precision
      *
      * @return int the precision of this decimal.
