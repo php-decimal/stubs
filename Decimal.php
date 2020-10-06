@@ -6,15 +6,15 @@ final class Decimal implements \JsonSerializable
     /**
      * These constants are for auto-complete only.
      */
-    const ROUND_UP          = 0; /* Round away from zero. */
-    const ROUND_DOWN        = 0; /* Round towards zero. */
-    const ROUND_CEILING     = 0; /* Round towards positive infinity */
-    const ROUND_FLOOR       = 0; /* Round towards negative infinity */
-    const ROUND_HALF_UP     = 0; /* Round to nearest, ties away from zero. */
-    const ROUND_HALF_DOWN   = 0; /* Round to nearest, ties towards zero. */
-    const ROUND_HALF_EVEN   = 0; /* Round to nearest, ties towards even. */
-    const ROUND_HALF_ODD    = 0; /* Round to nearest, ties towards odd. */
-    const ROUND_TRUNCATE    = 0; /* Truncate, keeping infinity. */
+    const ROUND_UP          = 101; /* Round away from zero. */
+    const ROUND_DOWN        = 102; /* Round towards zero. */
+    const ROUND_CEILING     = 103; /* Round towards positive infinity */
+    const ROUND_FLOOR       = 104; /* Round towards negative infinity */
+    const ROUND_HALF_UP     = 105; /* Round to nearest, ties away from zero. */
+    const ROUND_HALF_DOWN   = 106; /* Round to nearest, ties towards zero. */
+    const ROUND_HALF_EVEN   = 107; /* Round to nearest, ties towards even. */
+    const ROUND_HALF_ODD    = 108; /* Round to nearest, ties towards odd. */
+    const ROUND_TRUNCATE    = 109; /* Truncate, keeping infinity. */
 
     const DEFAULT_ROUNDING  = Decimal::ROUND_HALF_EVEN;
     const DEFAULT_PRECISION = 28;
